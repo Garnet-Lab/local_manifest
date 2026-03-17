@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="gh" fetch="https://github.com" />
+    <remote name="glab" fetch="https://gitlab.com" />
+
+    <project path="device/xiaomi/garnet" name="Haydn-Lab/device_xiaomi_garnet" remote="gh" revision="lineage-23.2" />
+
+    <project path="vendor/xiaomi/garnet" name="Garnet-Lab/vendor_xiaomi_garnet" remote="gh" revision="lineage-23.2" />
+
+    <project path="kernel/xiaomi/sm7435" name="Garnet-Lab/kernel_xiaomi_sm7435" remote="gh" revision="lineage-23.2" clone-depth="1" />
+
+    <project path="kernel/xiaomi/sm7435-devicetrees" name="Garnet-Lab/kernel_xiaomi_sm7435-devicetrees" remote="gh" revision="lineage-23.2" />
+
+    <project path="kernel/xiaomi/sm7435-modules" name="Garnet-Lab/kernel_xiaomi_sm7435-modules" remote="gh" revision="lineage-23.2" />
+
+    <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="gh" revision="lineage-23.2" />
+
+    <project path="vendor/xiaomi/garnet-miuicamera" name="Hexdare/garnet-miuicamera" remote="glab" revision="sixteen-qpr2" />
+    
+    <project path="hardware/dolby" name="Haydn-Lab/hardware_dolby" remote="gh" revision="16" />
+
+    <project path="packages/apps/GameBar" name="Hexdare/packages_apps_GameBar" remote="gh" revision="main" />
+
+    <project path="packages/apps/DolbyUI" name="swiitch-OFF-Lab/packages_apps_DolbyUI" remote="gh" revision="16.0" />
+</manifest>
