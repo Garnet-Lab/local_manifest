@@ -19,7 +19,7 @@
     
     <project path="hardware/dolby" name="Haydn-Lab/hardware_dolby" remote="gh" revision="16" />
 
-    <project path="packages/apps/GameBar" name="Hexdare/packages_apps_GameBar" remote="gh" revision="main" />
+    <project path="device/xiaomi/garnet-miuicamera" name="Garnet-Lab/device_xiaomi_garnet-miuicamera" remote="gh" revision="sixteen-qpr2" />
 
     <project path="packages/apps/DolbyUI" name="swiitch-OFF-Lab/packages_apps_DolbyUI" remote="gh" revision="16.0" />
 </manifest>
